@@ -13,6 +13,7 @@ end
 #Use the `<<` (shovel) method or the `#push` method to add that element to the end of the new array.
 
 def add_element_to_start_of_array(array, element)
+  array.unshift(element)
 
 end
 
